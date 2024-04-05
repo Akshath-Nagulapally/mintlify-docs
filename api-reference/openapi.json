@@ -60,25 +60,20 @@
   "components": {
     "schemas": {
       "FetchContactsRequest": {
-        "type": "object",
-        "properties": {
-          "conversation_history": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "role": {
-                  "type": "string",
-                  "enum": ["user", "assistant"]
-                },
-                "content": {
-                  "type": "string"
-                }
-              }
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "role": {
+              "type": "string",
+              "enum": ["user", "assistant"]
+            },
+            "content": {
+              "type": "string"
             }
-          }
-        },
-        "required": ["conversation_history"]
+          },
+          "required": ["role", "content"]
+        }
       },
       "FetchContactsResponse": {
         "type": "object",
