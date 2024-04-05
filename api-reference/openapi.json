@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "OpenAPI Plant Store",
-    "description": "A sample API that uses a plant store as an example to demonstrate features in the OpenAPI specification",
+    "title": "GoarkAI API",
+    "description": "The API that power's our advanced people sourcing + headhunting",
     "license": {
       "name": "MIT"
     },
@@ -10,7 +10,7 @@
   },
   "servers": [
     {
-      "url": "http://sandbox.mintlify.com"
+      "url": "https://airecruitingapiservice.vercel.app/"
     }
   ],
   "security": [
@@ -19,9 +19,9 @@
     }
   ],
   "paths": {
-    "/plants": {
+    "/fetch_contacts": {
       "get": {
-        "description": "Returns all plants from the system that the user has access to",
+        "description": "Returns top people given a specific search along with key information to set up your conversation loop",
         "parameters": [
           {
             "name": "limit",
