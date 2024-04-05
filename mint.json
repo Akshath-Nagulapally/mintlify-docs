@@ -33,39 +33,26 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Personalized outreach(coming soon)",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://aiheadhunter.vercel.app"
     },
     {
-      "name": "Community",
+      "name": "Community (coming soon)",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://aiheadhunter.vercel.app"
     },
     {
-      "name": "Blog",
+      "name": "Blog (coming soon)",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://aiheadhunter.vercel.app"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "introduction"
       ]
     },
     {
@@ -77,15 +64,12 @@
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/create"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/AkshatNon",
+    "linkedin": "https://www.linkedin.com/in/akshath-nagulapally-b01a37289/"
   }
 }
