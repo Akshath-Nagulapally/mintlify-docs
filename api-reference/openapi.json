@@ -10,7 +10,7 @@
   },
   "servers": [
     {
-      "url": "https://airecruitingapiservice.vercel.app/api/"
+      "url": "https://airecruitingapiservice.vercel.app/api"
     }
   ],
   "security": [
